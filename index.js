@@ -19,8 +19,9 @@ function add2(n) {
 }
 
 function outer() {
+  var funk = "FUNKY!";
   return function inner() {
-    return "FUNKY!"
+    return funk;
   }
 }
 
