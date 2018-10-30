@@ -18,7 +18,7 @@ function add2(n) {
   // Feel free to move things around!
 }
 
-var funkyFunction = function() {
+var funkyFunction = (function() {
   console.log("Outer function has been called.");
   var counter = "FUNKY!"
   return function() {
@@ -26,7 +26,7 @@ var funkyFunction = function() {
     counter = "FUNK!"
     return counter;
   }
-}
+});
 
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
 // NOTE: you only need to modify the code below this line.
