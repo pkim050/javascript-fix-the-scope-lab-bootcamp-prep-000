@@ -23,7 +23,7 @@ var funkyFunction = (function() {
   var counter = "FUNKY!";
   return function() {
     console.log("Inner function has been called.");
-    counter = "FUNK!";
+    counter = "FUNKY!";
     return counter
   }
 });
