@@ -19,7 +19,9 @@ function add2(n) {
 }
 
 var funkyFunction = function() {
+  console.log("Outer function has been called.");
   return function() {
+    console.log("Inner function has been called.");
     return "FUNKY!";
   }
 }
